@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>food website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">       
+        <div class="navbar">
+            <img src="images/burger-solid.svg" alt="" class="pic" width="25" height="25" >
+            <h2 class="logo">FOODSHOP</h2>
+        </div>
+        <div class="menu hide">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recepies</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+        </div>
+        <div class="search-box">
+            <input type="text" class="search-txt" id="" placeholder="search here">
+
+        </div>
+        <div class="tittle">
+            <h1>HEALTH IS <span> WEALTH</span></h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing. Animi <br>
+                 tempora qui modi consectetur eaque magnam maxime et, aperiam nisi beatae?
+            </p>
+        </div>
+        <div class="button">
+            <button class="btn">WATCH MORE</button>
+            <button class="btn">LEARN MORE</button>
+        </div>
+    </div>
+    <script>
+        document.querySelector(".pic").onclick=function(){
+            document.querySelector(".menu").classList.toggle("hide");
+            
+        }
+    </script>
+    
+</body>
+</html>
